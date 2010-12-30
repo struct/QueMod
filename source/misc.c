@@ -17,7 +17,7 @@ void help()
     #endif
 
     fprintf(stdout, "\n");
-sleep(10);
+
     exit(0);
 }
 
