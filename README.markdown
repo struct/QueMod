@@ -1,7 +1,6 @@
 Chris.Rohlf@gmail.com 2006-2011
 
-Introduction
-------------
+## Introduction
 
 QueMod is a fuzzing and protocol reverse engineering framework. It is the
 rebirth of an earlier project: QueFuzz. QueMod lets you hijack packets inline
@@ -14,8 +13,7 @@ The entire framework, along with the plugin interface, is written in C. This
 means plugins must be written in C. A plugin that embeds the Ruby interpreter
 will be released shortly.
 
-Installation
-------------
+## Installation
 
 For those Debian/Ubuntu users out there you can install the needed libraries
 by running:
@@ -33,8 +31,7 @@ This will queue all inbound TCP traffic with a destination port of 9191 and
 make it available to QueMod, which will hand it off to your plugins via
 the QueMod_get_packet hook.
 
-WARNING
--------
+## WARNING
 
 QueMod runs as root for obvious reasons. It is a testing tool, so don't run
 it in a production environment... ever.
